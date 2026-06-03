@@ -42,6 +42,11 @@
         path = ./astro;
         description = "Astro.js development environment";
       };
+
+      rust = {
+        path = ./rust;
+        description = "Rust development environment with rust-overlay and extensive tooling";
+      };
     };
 
     defaultTemplate = self.templates.default;
